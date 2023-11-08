@@ -9,9 +9,88 @@
 
 /*HEADER STYLE*/
 .em-nav{
-    height: 120px;
+    height: 12vh;
+    box-shadow: 1px 2px 5px #f2f2f2;
 }
 
 .navbar-brand img{
     width: 170px;
+}
+
+/*SHOWPRODUCT STYLE*/
+.showProduct{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.module-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding: 0 200px;
+    background-color: #f1f1f1;
+    border-bottom: 20px solid #F1C40F;
+}
+.module-info h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.module-info p{
+    font-size: 50px;
+    color: #F1C40F;
+    font-weight: 500;
+}
+.module-img{
+    width: 30%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.module-img img{
+    height: 500px;
+}
+.social-media{
+    position: absolute;
+    right:0;
+    top: 30%;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.social-media img{
+    width: 40px;
+    margin: 10px 0;
+}
+.social-media .icon{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+}
+.social-media .icon:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #F1C40F;
+}
+
+.options{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.options .product{
+    margin: 0 10px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options .product:hover{
+    cursor: pointer;
+}
+.options .product img{
+    height: 70px;
 }
